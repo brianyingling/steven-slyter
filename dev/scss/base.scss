@@ -1,0 +1,24 @@
+html, body {
+  background-image: url('../img/halftone.png');
+}
+
+nav {
+  float: right;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #ececec;
+
+  h1, h2 {
+    font-family: 'LibreBaskerville-Regular';
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+}

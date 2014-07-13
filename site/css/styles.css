@@ -1,5 +1,22 @@
-.blah {
-  text-decoration: underline; }
+html, body {
+  background-image: url('../img/halftone.png'); }
 
-.blah2 {
-  color: blue; }
+nav {
+  float: right; }
+
+.container {
+  background-color: #fff;
+  box-shadow: 3px 3px 3px #ececec; }
+  .container h1, .container h2 {
+    font-family: 'LibreBaskerville-Regular'; }
+  .container h1 {
+    margin-bottom: 0; }
+  .container h2 {
+    margin-top: 0; }
+
+@font-face {
+  font-family: 'LibreBaskerville-Regular';
+  src: url('../fonts/LibreBaskerville-Regualr.ttf'); }
+
+.header .header-item {
+  display: inline-block; }
