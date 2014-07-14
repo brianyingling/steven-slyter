@@ -24,3 +24,6 @@ nav {
 
 .header .header-item {
   display: inline-block; }
+
+.service .title {
+  text-align: center; }
