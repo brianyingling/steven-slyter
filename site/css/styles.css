@@ -8,7 +8,7 @@ nav {
   background-color: #fff;
   box-shadow: 3px 3px 3px #ececec; }
   .container h1, .container h2 {
-    font-family: 'LibreBaskerville-Regular'; }
+    font-family: 'CrimsonText-Roman'; }
   .container h1 {
     margin-bottom: 0; }
   .container h2 {
@@ -16,7 +16,11 @@ nav {
 
 @font-face {
   font-family: 'LibreBaskerville-Regular';
-  src: url('../fonts/LibreBaskerville-Regualr.ttf'); }
+  src: url('../fonts/LibreBaskerville-Regular.ttf'); }
+
+@font-face {
+  font-family: 'CrimsonText-Roman';
+  src: url('../fonts/Crimson_Text/CrimsonText-Roman.ttf'); }
 
 .header .header-item {
   display: inline-block; }
