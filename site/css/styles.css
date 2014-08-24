@@ -29,13 +29,14 @@ nav {
 
 #main .content {
   margin-top: 10px; }
-#main .credentials ul {
-  padding-left: 20px; }
-  #main .credentials ul ul {
-    font-size: 14px; }
 
 .header .header-item {
   display: inline-block; }
 
 .service .title {
   text-align: center; }
+
+#sidebar .credentials ul {
+  padding-left: 20px; }
+  #sidebar .credentials ul ul {
+    font-size: 14px; }
