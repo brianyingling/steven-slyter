@@ -19,6 +19,9 @@ nav {
   .container h2, .container h3 {
     margin-top: 0; }
 
+#experience h3 {
+  margin-top: 10px; }
+
 @font-face {
   font-family: 'LibreBaskerville-Regular';
   src: url('../fonts/LibreBaskerville-Regular.ttf'); }
@@ -35,6 +38,9 @@ nav {
 
 .service .title {
   text-align: center; }
+
+#publications img {
+  width: 109px; }
 
 #sidebar .credentials ul {
   padding-left: 20px; }
