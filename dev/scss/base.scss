@@ -4,21 +4,29 @@ html, body {
 
 nav {
   float: right;
+
+  a {
+    font-size: 1.25em;
+  }
+
 }
 
 .container {
   background-color: #fff;
   box-shadow: 3px 3px 3px #ececec;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ececec;
 
-  h1, h2 {
+  h1, h2, h3 {
     font-family: 'CrimsonText-Roman';
   }
 
-  h1 {
+  h1, h3 {
     margin-bottom: 0;
   }
 
-  h2 {
+  h2, h3 {
     margin-top: 0;
   }
 }

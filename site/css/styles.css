@@ -3,15 +3,20 @@ html, body {
 
 nav {
   float: right; }
+  nav a {
+    font-size: 1.25em; }
 
 .container {
   background-color: #fff;
-  box-shadow: 3px 3px 3px #ececec; }
-  .container h1, .container h2 {
+  box-shadow: 3px 3px 3px #ececec;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #ececec; }
+  .container h1, .container h2, .container h3 {
     font-family: 'CrimsonText-Roman'; }
-  .container h1 {
+  .container h1, .container h3 {
     margin-bottom: 0; }
-  .container h2 {
+  .container h2, .container h3 {
     margin-top: 0; }
 
 @font-face {
@@ -21,6 +26,13 @@ nav {
 @font-face {
   font-family: 'CrimsonText-Roman';
   src: url('../fonts/Crimson_Text/CrimsonText-Roman.ttf'); }
+
+#main .content {
+  margin-top: 10px; }
+#main .credentials ul {
+  padding-left: 20px; }
+  #main .credentials ul ul {
+    font-size: 14px; }
 
 .header .header-item {
   display: inline-block; }
