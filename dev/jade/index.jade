@@ -6,7 +6,17 @@ html
     link(href="css/styles.css", type='text/css', rel='stylesheet')
   body
     .container
-      include includes/nav
-      include includes/header
-      block content
-        include main
+      .header-wrapper
+        .row
+          .col-md-12
+            include includes/nav
+        .row
+          .col-md-12
+            include includes/header
+      .row
+        .content
+          .col-sm-7
+            block content
+              include main
+          .col-sm-5
+            include includes/sidebar
