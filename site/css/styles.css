@@ -32,6 +32,12 @@ html, body {
   font-family: 'CrimsonText-Roman';
   src: url('../fonts/Crimson_Text/CrimsonText-Roman.ttf'); }
 
+#footer .footer {
+  padding: 5px 20px;
+  font-size: 10px;
+  background-color: #572d23;
+  color: white; }
+
 .header-wrapper {
   background-color: #f9efe5;
   background-image: url('../img/mhYv4yA.jpg');
