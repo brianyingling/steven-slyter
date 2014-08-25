@@ -3,8 +3,7 @@
   background-image: url('../img/mhYv4yA.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 375px;
-  background-position-y: -302px;
+  background-position: 375px -302px;
   padding-left: 15px;
   border: 1px solid rgba(87,45,35, 1);
   border-radius: 5px;
@@ -35,7 +34,7 @@
           }
           &:hover {
             background-color: beige;
-            border-color: yellow;
+            border-color: beige;
             cursor: pointer;
             a {
               color: #000;

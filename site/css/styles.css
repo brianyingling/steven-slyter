@@ -43,8 +43,7 @@ html, body {
   background-image: url('../img/mhYv4yA.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 375px;
-  background-position-y: -302px;
+  background-position: 375px -302px;
   padding-left: 15px;
   border: 1px solid #572d23;
   border-radius: 5px;
@@ -69,14 +68,14 @@ html, body {
         color: white; }
       .header-wrapper #nav nav ul li:hover {
         background-color: beige;
-        border-color: yellow;
+        border-color: beige;
         cursor: pointer; }
         .header-wrapper #nav nav ul li:hover a {
           color: #000; }
   .header-wrapper #header h1 {
     text-shadow: 3px 3px 2px #ccc; }
 
-#main .content {
+#main .main {
   margin-top: 10px; }
 
 .header .header-item {
